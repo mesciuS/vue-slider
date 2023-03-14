@@ -53,7 +53,7 @@ createApp({
         prevSlide() {
           
           if(this.activeIndex == 0) {
-            this.activeIndex = this.slides.length - 1;
+            this.activeIndex = this.slides.images.length - 1;
           } else {
             this.activeIndex--;
           }
